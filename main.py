@@ -79,10 +79,10 @@ def keywithmaxval(d):
 #Define parameters and run the model
 
 # Variable that define the max size of the window to run the model
-max_window = 4
+max_window = 30
 
 # Variable that define the max r^2 to run the model, between 0 and 1
-max_det_coef = 0.5
+max_det_coef = 0.9
 
 #loop to create a dictionary with the results for each parameter
 for i in range(3,max_window):
