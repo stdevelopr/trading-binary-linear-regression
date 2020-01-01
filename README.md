@@ -23,6 +23,16 @@ ___
 Running the algorithm with a window size varying from 3 to 30 and the coeficient of determination varying from 0.3 to 0.9 
 with 0.2 step, the best result was:
 
-Win ratio: 54.92%
-Window size: 27
-Coefficient of determanation: 0.9
+- Win ratio: 54.92%
+- Window size: 27
+- Coefficient of determanation: 0.9
+
+___
+## Conclusion
+
+After running trough the whole dataset 108 times with 108 different parameters:\
+The avarage win ratio was 0.49\
+Standard deviation: 0.016
+
+So, running this strategy in one dataset without caring about the parameters will probably result in loss most of the time.
+After adjusting the parameter it was possible to find a combination of parameters that resulted in a positive win ratio of 4%.
