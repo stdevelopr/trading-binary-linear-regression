@@ -9,7 +9,7 @@ To predict if the next closing price will be higher or lower, based on a linear 
 ### Method
 Using the linear regression model, assume that the next closing price will be the value predicted by the model.
 * If the actual value is above the predicted, the guess is that the next closing price will get lower.
-* If the actual value is below the predicted, the guess is that the next price closing will get higher.
+* If the actual value is below the predicted, the guess is that the next closing price will get higher.
 
 #### Parameters
 The following parameters will be under control:
