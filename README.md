@@ -35,4 +35,4 @@ The avarage win ratio was 0.49\
 Standard deviation: 0.016
 
 So, running this strategy in one dataset without caring about the parameters will probably result in loss most of the time.
-After adjusting the parameter it was possible to find a combination of parameters that resulted in a positive win ratio of 4%.
+After adjusting the parameters it was possible to find a combination that resulted in a positive win ratio of 4.9%.
