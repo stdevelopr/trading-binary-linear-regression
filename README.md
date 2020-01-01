@@ -14,7 +14,7 @@ Using the linear regression model, assume that the next closing price will be th
 #### Parameters
 The following parameters will be under control:
 * The size of the window in wich the regression line will be calculated. 
-* The dispersion around the line, trough the coeficient of the determination
+* The dispersion around the line, through the coeficient of determination
 varying from 0 ( total dispersion) to 1 (concentrated on the line)
 
 ___
