@@ -25,9 +25,15 @@ with 0.2 step, the best result was:
 
 - Win ratio: 54.92%
 - Window size: 27
-- Coefficient of determanation: 0.9
+- Coefficient of determination: 0.9
 
 ___
+## Prediction Plot
+Here we see all the closing prices as the small blue dots. The red ones are the points that fitted the rule of the coefficient of determination. The green stars are ones where it was possible to make profit.
+![alt tag](/image_plot/BestPredicted.png)
+
+In the zoom we can see that the predictions and profits are mostly concentrated where the dispersion is small and the prices follow almost linearly.
+![alt tag](/image_plot/BestPredicted_Zoom.png)
 ## Conclusion
 
 After running trough the whole dataset 108 times with 108 different parameters:\
@@ -36,3 +42,4 @@ Standard deviation: 0.016
 
 So, running this strategy in one dataset without caring about the parameters will probably result in loss most of the time.
 After adjusting the parameters it was possible to find a combination that resulted in a positive win ratio of 4.9%.
+It was noted that the entry points were few, however.
