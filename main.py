@@ -1,6 +1,7 @@
 import pandas as pd
 import numpy as np
 import datetime
+import matplotlib.pyplot as plt
 from sklearn.linear_model import LinearRegression
 
 #Read the dataset, set the index as the Date column,
@@ -99,4 +100,14 @@ print('The best won ratio was: ' + str(round(fit_params[best_fit]*100, 2)) +'%')
 print('Window:', best_fit[0])
 print('det_coef:', best_fit[1])
 
- 
+
+###########To plot the best prediction
+#best_predicted = best_fit(best_fit[0], best_fit[1])
+#plt.scatter(df.index, df.Close, s=0.5, label="Close")
+#plt.scatter(df.index[df.Predicted > 0], df.Predicted[df.Predicted > 0], s=10, color='red', marker= "v", label="Predicted")
+#plt.scatter(df.index[(df.Profit==True) & (df.Predicted > 0)], df.Predicted[(df.Profit==True) & (df.Predicted > 0)], s=20, 
+#                     marker= "*", color='green', label="Profit")
+#plt.legend()
+#plt.xlabel("Date")
+#plt.ylabel("Closing Price")
+#plt.show()
